@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { Container, Typography, Card, CircularProgress } from '@mui/material';
+import { Container, Typography, Card, CardContent, CircularProgress } from '@mui/material';
 import axios from 'axios';
 
 const DonationDetails = () => {
