@@ -1,0 +1,67 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Override Material UI AppBar (if needed) */
+.MuiAppBar-root {
+  background: #1976d2 !important;
+}
+
+/* Card Styling */
+.MuiCard-root {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin: 10px 0;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-5px);
+}
+
+/* Button Styling */
+.MuiButton-root {
+  border-radius: 8px !important;
+  padding: 8px 16px !important;
+  transition: background-color 0.3s ease;
+}
+
+.MuiButton-root:hover {
+  background-color: #1565c0 !important;
+}
+
+/* Form Styling */
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Footer Styling */
+footer {
+  background: #1976d2;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
